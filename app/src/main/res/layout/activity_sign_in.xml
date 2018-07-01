@@ -4,17 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".JournalActivity">
+    tools:context=".SignInActivity">
 
-    <TextView
-        android:id="@+id/user_name"
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:text="Sign Out"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="signOut" />
 
 </android.support.constraint.ConstraintLayout>
